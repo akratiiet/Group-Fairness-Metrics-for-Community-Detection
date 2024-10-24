@@ -9,7 +9,7 @@ from my_module import *
 def check_validity(G, com):
     """
     Checks whether the graph and community assignments are valid, meaning:
-        - G is fully a fully connected, undirected graph
+        - G is a fully connected, undirected graph
         - Every node in G is in a community
         - No node is in multiple communities
     This is only used in testing, to double-check that the CDMs work properly
