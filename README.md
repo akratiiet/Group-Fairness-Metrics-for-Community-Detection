@@ -13,7 +13,7 @@
 
 **my_module.py**: Helper functions
 
-**main.py**: Shows example of LFR network generation, CDM application and and prints fairness metric and performance values
+**main.py**: Shows example of LFR network generation, CDM application, calculating the fairness metric Phi and creation of figures showing the results.
 
 ## Data folders
 **data**: network data in csv files showing ground-truth communities in 'networkname_nodes.csv' and edge adjacency list in 'networkname_edges.csv'
@@ -23,3 +23,7 @@
 **results**: contains fairness metric Phi and performance values
 
 **figures**: contains figures displaying the results
+
+<img src="https://github.com/user-attachments/assets/3a772113-8d1a-43e1-8a2a-2e3c0a78847d" alt="football_size_Phi_FCCN" width="450">
+
+Example of fairness analysis for the football network regarding size with FCCN as the community-wise performance metric.
